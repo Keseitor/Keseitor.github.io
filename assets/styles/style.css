@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Unbounded:wght@500&display=swap');
+
+html {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    background-color: #282a2b;
+}
+
+a:link { text-decoration: none; }
+
+#cardContainer{
+    margin: 0px auto;
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    align-content: center;
+}
+
+.card {
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: auto;
+    cursor: default;
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 5%;
+    background-color: #131313;
+    box-shadow: 0px 1px 10px #313131;
+    color: #EEEEEE;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    text-align: center;
+    aspect-ratio: 1 / 1.41;
+    width: 350px;
+    transition: all 350ms ease;
+        -webkit-transition: all 350ms ease;
+        -moz-transition: all 350ms ease;
+        -ms-transition: all 350ms ease;
+        -o-transition: all 350ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 30px #ffb923;
+    transform: translateY(-3%);
+    -webkit-transform: translateY(-3%);
+    -moz-transform: translateY(-3%);
+    -ms-transform: translateY(-3%);
+    -o-transform: translateY(-3%);
+}
+
+.card h1{
+    font-family: 'Unbounded', cursive;
+}
+
+#social {
+    text-decoration: none;
+    color: white;
+    transition: all 350ms ease;
+        -webkit-transition: all 350ms ease;
+        -moz-transition: all 350ms ease;
+        -ms-transition: all 350ms ease;
+        -o-transition: all 350ms ease;
+}
+
+#social:hover {
+    transform: translateY(-10%);
+    -webkit-transform: translateY(-10%);
+    -moz-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    -o-transform: translateY(-10%);
+}
+
+#projectsContainer {
+    padding-top: 5%;
+    margin-top: 20%;
+    display: flex;
+    background-color: #313131;
+    align-items: center;
+}
+
+.projectsButton {
+    font-family: 'Unbounded', cursive;
+    width: 200%;
+    margin-left: auto;
+    color: #EEEEEE;
+    text-shadow: #131313;
+    transition: all 350ms ease;
+        -webkit-transition: all 350ms ease;
+        -moz-transition: all 350ms ease;
+        -ms-transition: all 350ms ease;
+        -o-transition: all 350ms ease;
+}
+
+.projectsButton:hover {
+    transform: translateY(-10%);
+    -webkit-transform: translateY(-10%);
+    -moz-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    -o-transform: translateY(-10%);
+}
